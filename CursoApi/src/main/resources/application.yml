@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Curso Api
+  datasource:
+    url: jdbc:h2:mem:produtos
+    username: da
+    password: password
+  jpa:
+    database-plataform: org.hibernate.H2Dialect
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
