@@ -43,4 +43,12 @@ public class Carro {
     public Carro(Motor motor) {
         this.motor = motor;
     }
+
+    public CarroStatus darIgnicao(Chave chave) {
+    if(chave.getMontadora()!= this.montadora){
+        return new CarroStatus("Nao e possivel iniciar o carro com esta chave");
+    }else{
+        return new CarroStatus("Carro ligado. Rodando com o motor"+ motor);
+    }
+    }
 }

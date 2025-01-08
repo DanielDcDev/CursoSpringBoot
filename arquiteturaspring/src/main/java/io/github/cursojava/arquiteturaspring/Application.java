@@ -21,8 +21,8 @@ public class Application {
 
 		builder.run(args);
 
-		ConfigurableApplicationContext applicationContext = builder.context();
-		var produtoRepository = applicationContext.getBean("produtoRepository");
+//		ConfigurableApplicationContext applicationContext = builder.context();
+//		var produtoRepository = applicationContext.getBean("produtoRepository");
 
 
 
