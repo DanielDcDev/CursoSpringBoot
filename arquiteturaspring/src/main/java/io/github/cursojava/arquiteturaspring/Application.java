@@ -1,10 +1,12 @@
 package io.github.cursojava.arquiteturaspring;
 
+import io.github.cursojava.arquiteturaspring.todos.TodoEntity;
+import io.github.cursojava.arquiteturaspring.todos.TodoValidator;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.Banner;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.stereotype.Component;
 
 @SpringBootApplication
 public class Application {
@@ -24,11 +26,5 @@ public class Application {
 //		ConfigurableApplicationContext applicationContext = builder.context();
 //		var produtoRepository = applicationContext.getBean("produtoRepository");
 
-
-
-
-
-
 	}
-
 }
