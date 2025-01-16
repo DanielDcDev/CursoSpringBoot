@@ -1,5 +1,4 @@
 package com.LibraryApi.model;
-
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -12,8 +11,7 @@ import java.util.UUID;
 @Getter
 @Setter
 public class Autor {
-//nao e realmente necessario todo esse mapeamento com os Colluns porem e bom pois tudo isso gera
-//um codigo mais legivel.
+
     @Id
     @Column(name ="id")
     @GeneratedValue(strategy = GenerationType.UUID)

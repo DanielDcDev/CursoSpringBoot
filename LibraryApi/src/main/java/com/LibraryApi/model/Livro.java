@@ -1,6 +1,4 @@
 package com.LibraryApi.model;
-
-
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -13,6 +11,8 @@ import java.util.UUID;
 @Data
 public class Livro {
 
+    @Id
+    @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
@@ -31,7 +31,6 @@ public class Livro {
 
     @Column(name = "preco", precision = 18, scale =2 )
     private BigDecimal preco;
-
 
     @ManyToOne
     @JoinColumn(name = "id_autor")

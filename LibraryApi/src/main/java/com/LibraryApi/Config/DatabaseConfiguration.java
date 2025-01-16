@@ -1,3 +1,4 @@
+
 //configuracao opcional, bom para saber mas tem outras formas de fazer e nao e tao necessario a um baixo nivel de codigo
 //para questoes de empresa e perfeito.
 
