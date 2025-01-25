@@ -15,8 +15,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
-import java.sql.DriverManager;
-
 @Configuration
 public class DatabaseConfiguration {
 
@@ -29,6 +27,7 @@ public class DatabaseConfiguration {
     @Value("${spring.datasource.driver-class-name}")
     String driver;
 
+    /*
     @Bean
     public DataSource dataSource(){
         DriverManagerDataSource ds = new DriverManagerDataSource();
@@ -38,7 +37,7 @@ public class DatabaseConfiguration {
         ds.setDriverClassName(driver);
         return ds;
     }
-
+    */
     @Bean
     public DataSource hikariDataSource(){
 

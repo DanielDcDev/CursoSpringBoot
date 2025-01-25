@@ -5,47 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85fdfb1d-9f88-4354-9eb6-8de075c18500" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CursoSpringBoot.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/BeanGerenciado.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/BeanGerenciado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/ExemploInjecaoDependencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/ExemploInjecaoDependencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/ExemploValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/ExemploValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/Carro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/CarroStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/CarroStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/Chave.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/Chave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/HondaHRV.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/HondaHRV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/Montadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/Montadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/Motor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/TipoMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/TipoMotor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/api/Aspirado.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/api/Aspirado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/api/Eletrico.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/api/Eletrico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/api/Turbo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/api/Turbo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/api/testeFabricaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/api/testeFabricaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/configuration/MontadoraConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/montadora/configuration/MontadoraConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/todos/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/todos/MailSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/todos/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/todos/TodoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/todos/TodoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/todos/TodoEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/todos/TodoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/todos/TodoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/todos/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/todos/TodoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/java/io/github/cursojava/arquiteturaspring/todos/TodoValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/java/io/github/cursojava/arquiteturaspring/todos/TodoValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquiteturaspring/src/test/java/io/github/cursojava/arquiteturaspring/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaSpring/src/test/java/io/github/cursojava/arquiteturaspring/ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
