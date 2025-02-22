@@ -1,11 +1,15 @@
 package com.LibraryApi.repository;
 
 import com.LibraryApi.model.Autor;
+import com.LibraryApi.model.GeneroLivro;
+import com.LibraryApi.model.Livro;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -14,6 +18,8 @@ import java.util.UUID;
 public class AutorRepositoryTest {
     @Autowired
     AutorRepository repository;
+    @Autowired
+    LivroRepository livroRepository;
 
     @Test
     public void salvarTest() {
@@ -50,6 +56,7 @@ public class AutorRepositoryTest {
     }
     @Test
     public void deletePorIdTest(){
+
         var id = UUID.fromString("e6b07976-a8c2-406e-af2c-914689e21d321");
         repository.deleteById(id);
     }
@@ -57,5 +64,38 @@ public class AutorRepositoryTest {
         var id = UUID.fromString("b68fe998-bbae-44c9-91bd-fab3bdc0675c");
         var maria = repository.findById(id).get();
         repository.deleteById(id);
+    }
+
+    @Test
+    void SalvarAutorComLivros(){
+        Autor autor = new Autor();
+        autor.setNome("Mario");
+        autor.setNacionalidade("Bulgaro");
+        autor.setDataNascimento(LocalDate.of(1998,10,3));
+
+        Livro livro = new Livro();
+        livro .setIsbn("99998-84874");
+        livro.setPreco(BigDecimal.valueOf(120));
+        livro.setGenero(GeneroLivro.Misterio);
+        livro.setTitulo("A coisa");
+        livro.setDataPublicacao(LocalDate.of(2020,1,20));
+        livro.setAutor(autor);
+
+        Livro livro2 = new Livro();
+        livro2.setIsbn("99998-84874");
+        livro2.setPreco(BigDecimal.valueOf(120));
+        livro2.setGenero(GeneroLivro.Misterio);
+        livro2.setTitulo("A coisa da morte");
+        livro2.setDataPublicacao(LocalDate.of(2022,2,22));
+
+        autor.setLivros(new ArrayList<>());
+        autor.getLivros().add(livro);
+        autor.getLivros().add(livro2);
+
+        repository.save(autor);
+
+      
+
+
     }
 }
